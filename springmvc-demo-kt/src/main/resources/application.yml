@@ -1,0 +1,22 @@
+server:
+  port: 8900
+  address: 0.0.0.0
+  tomcat:
+    max-http-form-post-size: 100MB
+
+spring:
+  application:
+    name: springmvc-demo-kt
+
+shenyu:
+  register:
+    registerType: http
+    serverLists: http://localhost:9095
+    props:
+      username: admin
+      password: 123456
+  client:
+    http:
+      props:
+        contextPath: /springdemokt
+        appName: springmvc-demo-kt

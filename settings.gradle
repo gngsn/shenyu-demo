@@ -1,3 +1,4 @@
 rootProject.name = 'shenyu-demo'
 include 'springmvc-demo'
+include 'springmvc-demo-kt'
 
